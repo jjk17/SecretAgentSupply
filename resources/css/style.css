@@ -1,0 +1,76 @@
+.html {font-size: 18px; font-family: "Helvetica";}
+body {margin: 0px; border: 0; font-family: 'Helvetica'; color: white;}
+.container {max-width: 960px; margin: 0 auto;}
+.header {display: flex; background-color: black; color: white; margin-bottom: 0px;
+padding-top: 20px; padding-bottom: 20px;}
+.logo img {margin-left: 12rem; width: 20%; margin-right: 0px; height: 50%; padding-top: 1.25rem;}
+.headertext {margin-left: 1rem;}
+.main-one {background-image: url("../images/moto.jpeg"); color: white; width: 100%;
+background-repeat: no-repeat; background-position: center; background-size: cover;
+height: 25rem; display: flex; align-items: center;}
+.main-one-box {border: solid black; background-color: black; margin-left: 12rem;
+  padding: 30px 50px 30px 30px;}
+.newarrival {font-size: 1rem;}
+.sportbikes {font-size: 2rem;}
+
+.main-two {background-color: firebrick; display: flex; color: white; padding-left: 8rem;}
+.item {margin: 2rem;}
+
+.main-two li {
+  display: inline-block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;}
+
+.main-two-small {text-align: center; background-color: firebrick; color: white;}
+
+.main-three {display: flex; background-color: white; color: black; width: 960px;
+margin-left: 1rem;}
+.watch-container, .glasses-container, .pen-container {border: .25rem solid black;
+  margin-top: 3rem; margin-bottom: 3rem; margin-left: 1.5rem;
+width: 30%; display: flex; flex-direction: column;}
+.pen-container {margin-left: 12rem;}
+
+.watch-image img, .pen-image img {height: 9rem; margin: auto; width: auto; padding: 2rem;}
+.glasses-image img {height: 9rem; width: 7rem; margin: auto; padding: 2rem;}
+.pen-text, .watch-text, .glasses-text {background-color: black; color: white; display: flex;
+justify-content: center;}
+.main-four {display: flex; color: black; margin-left: 8rem; justify-content: space-around;}
+.locations-container, .hours-container {display: flex; flex-direction: column; width: 30%;
+margin-bottom: 4rem;}
+.hours-container {margin-left: 4rem;}
+.locations-text, .hours-text {background-color: black; color: white; padding-left: 2rem;
+padding-top: 1rem; padding-bottom: 1rem;}
+.footer {background-color: black; padding-top: 2.5rem; padding-bottom: 2.5rem;
+padding-left: 12rem;}
+
+@media only screen and (max-width: 1024px) {
+  .main-two li {display: none;}
+  .main-two-small {display;}
+  .glasses-container {display: none;}
+  .main-one-box {margin-left: 0rem;}
+  .logo img {margin-left: 1rem;}
+  .watch-container, .pen-container {width: 47%;}
+  .pen-container {margin-left: 0rem;}
+  .watch-container {margin-right: 1rem;}
+  .watch-image img, .pen-image img {height 9rem; width: auto;
+    padding-left: 8rem; padding-right: 8rem;}
+  .main-four {margin-left: 0rem;}
+  .footer {padding-left: 0rem;}
+  .locations-container, .hours-container {width: 40%;}
+}
+
+@media only screen and (max-width: 470px) {
+  .newarrival {font-family: Helvetica; font-size: 0.77rem; font-size: bold;}
+  .sportbikes {font-family: Helvetica; font-size: 1rem; font-size: bold;}
+  .watch-container {display: none;}
+  .pen-container {margin-left: 0rem; padding-right: 0rem;}
+  .footer {text-align: center;}
+  .main-four {display: flex; flex-direction: column; justify-content: center;}
+  .locations-container, .hours-container {width: 90%; margin-left: 1rem; margin-right: 1rem;}
+  .hours-container {margin-top: 0.5rem;}
+  .locations-container {margin-bottom: 0rem;}
+
+
+}
